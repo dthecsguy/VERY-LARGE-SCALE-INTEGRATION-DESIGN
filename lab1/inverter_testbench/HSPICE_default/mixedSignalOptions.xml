@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!--Created by Custom Compiler (TM), build , on Thu Jan 19 09:58:17 2023-->
+<file-format name="stateCategory" version="1.0">
+ <object name="mixedSignalOptions" type="saMixedSignalOptions" version="1">
+  <collection name="a2dInterfaceElements"/>
+  <attribute value="0" name="alwaysUsePortMapOption" type="giBoolean"/>
+  <attribute value="[%d]" name="busFormat" type="giString"/>
+  <attribute value="" name="connectModulesInstallDirFilePatterns" type="giString"/>
+  <attribute value="" name="connectModulesUserDir" type="giString"/>
+  <attribute value="" name="connectModulesUserDirFilePatterns" type="giString"/>
+  <collection name="connectRuleElements"/>
+  <attribute value="" name="connectRulesInstallDirFilePatterns" type="giString"/>
+  <attribute value="" name="connectRulesUserDirFilePatterns" type="giString"/>
+  <collection name="connectionModules"/>
+  <collection name="connectionRules"/>
+  <collection name="d2aInterfaceElements"/>
+  <attribute value="" name="defaultNetDiscipline" type="giString"/>
+  <attribute value="" name="defaultResistanceMapFile" type="giString"/>
+  <attribute value="basic" name="disciplineResolution" type="saDisciplineResolution"/>
+  <collection name="e2nInterfaceElements"/>
+  <collection name="e2rInterfaceElements"/>
+  <attribute value="0" name="enableRTVS" type="giBoolean"/>
+  <attribute value="" name="existingControlFile" type="giString"/>
+  <attribute value="" name="extraOptions" type="giString"/>
+  <attribute value="" name="extraOptionsTop" type="giString"/>
+  <attribute value="" name="extraOptionsUcli" type="giString"/>
+  <attribute value="" name="extraOptionsUcliTop" type="giString"/>
+  <attribute value="cosim" name="flowType" type="saMixedSignalFlow"/>
+  <collection name="forceDigitalNets"/>
+  <attribute value="0" name="ieReportAMS" type="giBoolean"/>
+  <attribute value="0" name="ieReportActivity" type="giBoolean"/>
+  <attribute value="0" name="mviewVlogNoPortSwap" type="giBoolean"/>
+  <collection name="n2eInterfaceElements"/>
+  <collection name="nodeResistanceOverrides"/>
+  <collection name="r2eInterfaceElements"/>
+  <collection name="resistanceMapConfigs"/>
+  <attribute value="0" name="resolveXInstPrefix" type="giBoolean"/>
+  <attribute value="1" name="spicePortOrderAsVlog" type="giBoolean"/>
+  <attribute value="" name="spiceTopName" type="giString"/>
+  <attribute value="0" name="useExistingControlFile" type="giBoolean"/>
+ </object>
+</file-format>
